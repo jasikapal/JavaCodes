@@ -4,6 +4,7 @@ public class Add {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter 1st number:");
         int a=sc.nextInt();
+        sc.close();
         System.out.println("Enter 1st number:");
         int b=sc.nextInt();
         int sum= a+b;
