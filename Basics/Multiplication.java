@@ -6,6 +6,7 @@ public class Multiplication {
         int a=sc.nextInt();
         System.out.println("Enter 1st number:");
         int b=sc.nextInt();
+        sc.close();
         int p=a*b;
         System.out.println(p);
 }
