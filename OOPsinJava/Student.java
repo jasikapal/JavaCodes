@@ -1,17 +1,11 @@
 package OOPsinJava;
+public class Student extends Person {
 
-public class Student {
-    // Creatin a new data type with multiple attribute
-    public static class Student1{
-        String name;
-        double percentage;
-        int roll;
+  public Student(String name, String surname, int age) {
+    super(name, surname, age);
+    //TODO Auto-generated constructor stub
+  }
+
     }
-    public static void main(String[] args) {
-        Student1 x = new Student1(); //declaration
-        x.name="jasika";              /*initialization */
-        x.percentage=67.9;              /*initialization */
-        x.roll=10;                       /*initialization */
-        System.out.println(x.name);
-    }
-}
+   
+
